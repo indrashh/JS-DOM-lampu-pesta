@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_item {
+  width: 60%;
+}
+
+.random button {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  background-color: #3e3f5b;
+  color: aliceblue;
+  border: none;
+}
+
+.colorButton {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.collorButtonItem {
+  width: 25%;
+}
+
+.collorButtonItem button {
+  width: 100%;
+  padding: 8px;
+}
+
+#redBtn {
+  background-color: #eb5353;
+  border: none;
+  color: beige;
+}
+#greenBtn {
+  background-color: #36ae7c;
+  border: none;
+  color: beige;
+}
+#blueBtn {
+  color: beige;
+  background-color: #187498;
+  border: none;
+}
+
+.resetButton {
+  margin-top: 16px;
+}
+.resetButton button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background-color: #b4babc;
+}
+
+#blueBtn:hover {
+  color: beige;
+  background-color: #0a445d;
+  border: none;
+}
+#greenBtn:hover {
+  color: beige;
+  background-color: #0c6b43;
+  border: none;
+}
+#redBtn:hover {
+  color: beige;
+  background-color: #c31818;
+  border: none;
+}
+.random button:hover {
+  color: beige;
+  background-color: black;
+  border: none;
+}
+
+.resetButton button:hover {
+  padding: 8px;
+  border: none;
+  background-color: #cdd8db;
+}
